@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "Academic portfolio of Omar ET-TARGUY (AI, uncertainty reasoning, wastewater networks)"
   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://et-targuy.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://omarettarguy.me # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ET-TARGUY/et-targuy.github.io"
