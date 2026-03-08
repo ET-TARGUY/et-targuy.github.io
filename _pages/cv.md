@@ -6,7 +6,10 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-[Download full CV (PDF)](/files/cv.pdf)
+
+[Download full CV]
+
+<iframe src="/files/cv.pdf" width="100%" height="900px" style="border:none;"></iframe>
 
 {% include base_path %}
 
