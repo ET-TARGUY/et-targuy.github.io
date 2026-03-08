@@ -1,7 +1,7 @@
 ---
 title: "Catégorisation des imperfections des données pour l'appariement d'objets dans les réseaux d'eaux usées à l'aide de la théorie des croyances"
 collection: talks
-type: "Doctoral conferences"
+type: "Doctoral conference"
 permalink: /talks/2022-jdhu-lyon
 venue: "Journées Doctorales en Hydrologie Urbaine (JDHU)"
 date: 2022-11-01

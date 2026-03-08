@@ -1,7 +1,7 @@
 ---
 title: "Possibilistic Conditioning and Graph-Based Representation of Wastewater Networks"
 collection: talks
-type: "Doctoral conferences"
+type: "Doctoral conference"
 permalink: /talks/2025-phd-dialog-calabria
 venue: "PhD Dialog 2025 - Sustainability"
 date: 2025-10-02
