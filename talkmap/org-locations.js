@@ -43,5 +43,10 @@ var addressPoints = [
     "Fusion de donn\u00e9es g\u00e9ographiques par alignement de graphes : application aux r\u00e9seaux d\u2019assainissement<br />1er Congr\u00e8s Eau & Intelligence Artificielle; Grenoble, France",
     45.1875602,
     5.7357819
+  ],
+  [
+    "Possibilistic Conditioning and Graph-Based Representation of Wastewater Networks<br />PhD Dialog 2025 - Sustainability; Calabria, Italy",
+    39.0565974,
+    16.5249864
   ]
 ];
