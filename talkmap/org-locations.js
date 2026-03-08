@@ -25,6 +25,11 @@ var addressPoints = [
     105.7872656
   ],
   [
+    "Possibilistic Conditioning and Graph-Based Representation of Wastewater Networks<br />Journ\u00e9e des Doctorants / Doctoral Students' Day (JDD'25), CRIL; Bruges, Belgium",
+    51.2085526,
+    3.226772
+  ],
+  [
     "Categorizing Data Imperfections for Object Matching in Wastewater Networks Using Belief Theory<br />International Conference on Advanced Intelligent Systems for Sustainable Development (AI2SD); Rabat, Morocco",
     34.0218454,
     -6.8408929
