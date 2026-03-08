@@ -6,9 +6,10 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+[Download full CV (PDF)](/files/cv.pdf)
 
 {% include base_path %}
-[Download full CV (PDF)](/files/cv.pdf)
+
 Education
 ======
 * **Ph.D. in Computer Science** (International Joint Program), 2022-2025
