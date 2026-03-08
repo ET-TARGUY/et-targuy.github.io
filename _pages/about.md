@@ -11,7 +11,7 @@ About Me
 ======
 I am a postdoctoral researcher at IUSTI (CNRS – Aix-Marseille Université), working on the ATLAS project (GeoAI-based AugmenTation of muLti-source urbAn GIS) funded by the CHIST-ERA programme. My work focuses on developing artificial intelligence methods for multi-source geospatial data fusion, with applications to urban infrastructure such as flood systems and wastewater networks.
 
-I completed my PhD in Computer Science on 31/10/2025 through an international joint program between Université d'Artois (France) and Sidi Mohamed Ben Abdellah University (Morocco). My doctoral research focused on possibilistic conditioning and graph-based representation of wastewater networks.
+I completed my PhD in Computer Science on 31/10/2025 through an international joint program between Université d'Artois (France) and Sidi Mohamed Ben Abdellah University (Morocco). My doctoral research focused on possibilistic conditioning and graph-based representation of wastewater networks. During this period, I was a member of the LEMON research team (INRIA – University of Montpellier), a joint research team between HydroSciences Montpellier (HSM) and IMAG, working on AI methods for hydrology and environmental systems.
 
 My research bridges theoretical contributions in uncertainty reasoning and belief revision with practical applications in geospatial data integration, combining machine learning, graph theory, and GIS technologies. Through international collaborations in Vietnam and South Africa as part of the STARWARS Marie Skłodowska-Curie project, I developed expertise in handling heterogeneous spatial data and network topology analysis.
 
