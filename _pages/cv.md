@@ -9,8 +9,6 @@ redirect_from:
 
 [Download full CV (PDF)](/files/CV.pdf)
 
-<iframe src="/files/CV.pdf" width="100%" height="900px" style="border:none;"></iframe>
-
 {% include base_path %}
 
 Education
