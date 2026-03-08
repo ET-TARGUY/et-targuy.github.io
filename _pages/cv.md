@@ -7,9 +7,9 @@ redirect_from:
   - /resume
 ---
 
-[Download full CV (PDF)](/files/cv.pdf)
+[Download full CV (PDF)](/files/CV.pdf)
 
-<a href="/files/cv.pdf" style="font-size:18px;">📄 Download full CV</a>
+<iframe src="/files/CV.pdf" width="100%" height="900px" style="border:none;"></iframe>
 
 {% include base_path %}
 
