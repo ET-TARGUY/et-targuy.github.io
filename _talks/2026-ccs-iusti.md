@@ -1,7 +1,7 @@
 ---
 title: "Wastewater networks: heterogeneous data and graphical representation"
 collection: talks
-type: "Seminars"
+type: "Seminar"
 permalink: /talks/2026-ccs-iusti
 venue: "Coffee Cake and Science (CCS) Seminar, IUSTI – Aix-Marseille University"
 date: 2026-02-05
