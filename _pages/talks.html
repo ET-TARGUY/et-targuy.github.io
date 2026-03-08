@@ -13,6 +13,23 @@ author_profile: true
 
 {% endif %}
 
+## Conference Presentations
 {% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+  {% if post.type == "Conference presentation" %}
+    {% include archive-single-talk.html %}
+  {% endif %}
+{% endfor %}
+
+## Doctoral Conferences
+{% for post in site.talks reversed %}
+  {% if post.type == "Doctoral conference" %}
+    {% include archive-single-talk.html %}
+  {% endif %}
+{% endfor %}
+
+## Research Seminars
+{% for post in site.talks reversed %}
+  {% if post.type == "Research seminar" or post.type == "Seminar" %}
+    {% include archive-single-talk.html %}
+  {% endif %}
 {% endfor %}
