@@ -9,9 +9,11 @@ redirect_from:
 
 About Me
 ======
-I am a postdoctoral researcher at IUSTI (CNRS-Aix-Marseille Université), working on the ANR SWIFTS project where I develop AI algorithms for multi-source data fusion applied to flood modeling and wastewater networks. I recently completed my PhD in Computer Science through an international joint program between Université d'Artois (France) and Sidi Mohamed Ben Abdellah University (Morocco), focusing on uncertainty reasoning and possibilistic conditioning.
+I am a postdoctoral researcher at IUSTI (CNRS – Aix-Marseille Université), working on the ATLAS project (GeoAI-based AugmenTation of muLti-source urbAn GIS) funded by the CHIST-ERA programme. My work focuses on developing artificial intelligence methods for multi-source geospatial data fusion, with applications to urban infrastructure such as flood systems and wastewater networks.
 
-My research bridges theoretical contributions in belief revision with practical applications in geospatial data integration, combining machine learning, graph theory, and GIS technologies. Through international collaborations in Vietnam and South Africa as part of the STARWARS project, I've developed expertise in handling heterogeneous spatial data and network topology analysis.
+I completed my PhD in Computer Science on 31/10/2025 through an international joint program between Université d'Artois (France) and Sidi Mohamed Ben Abdellah University (Morocco). My doctoral research focused on possibilistic conditioning and graph-based representation of wastewater networks.
+
+My research bridges theoretical contributions in uncertainty reasoning and belief revision with practical applications in geospatial data integration, combining machine learning, graph theory, and GIS technologies. Through international collaborations in Vietnam and South Africa as part of the STARWARS Marie Skłodowska-Curie project, I developed expertise in handling heterogeneous spatial data and network topology analysis.
 
 Research Interests
 ======
@@ -24,7 +26,7 @@ Current Position
 ======
 **Postdoctoral Researcher** (November 2025 - Present)  
 IUSTI, UMR 7343 CNRS – Aix-Marseille Université, Marseille, France  
-*ANR SWIFTS Project: Merging Multi-Source Data for Shallow Water Model Parameterization*
+*CHIST-ERA ATLAS Project: Merging Multi-Source Data for Shallow Water Model Parameterization*
 
 - Multi-source data integration (GIS raster/vector, shapefiles) for hydraulic models
 - Remote sensing: SAR and optical imagery for flood mapping and land cover analysis
@@ -33,10 +35,11 @@ IUSTI, UMR 7343 CNRS – Aix-Marseille Université, Marseille, France
 
 Recent News
 ======
+- **November 2025**: Started postdoctoral position at IUSTI working on the ATLAS project
+
 - **October 2025**: Successfully defended my PhD thesis "Practical Fusion and Heterogeneous Conditioning from Uncertain Information"
 - **October 2025**: Presented at PhD Dialog 2025 - Sustainability, University of Calabria, Italy
 - **April 2025**: Accepted abstract at EGU General Assembly 2025, Vienna
-- **November 2025**: Started postdoctoral position at IUSTI working on the ANR SWIFTS project
 
 International Experience
 ======
