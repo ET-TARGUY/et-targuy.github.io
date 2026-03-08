@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-
+[Download full CV (PDF)](/files/cv.pdf)
 Education
 ======
 * **Ph.D. in Computer Science** (International Joint Program), 2022-2025
@@ -104,4 +104,3 @@ Awards & Recognition
 * International mobility funding through STARWARS Horizon Europe project
 * PhD funding through international cotutelle program
 
-[Download full CV (PDF)](/files/cv.pdf)
