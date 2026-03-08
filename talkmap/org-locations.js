@@ -35,6 +35,11 @@ var addressPoints = [
     105.7683051
   ],
   [
+    "Wastewater networks: heterogeneous data and graphical representation<br />Coffee Cake and Science (CCS) Seminar, IUSTI \u2013 Aix-Marseille University; Marseille, France",
+    43.2961743,
+    5.3699525
+  ],
+  [
     "Fusion de donn\u00e9es g\u00e9ographiques par alignement de graphes : application aux r\u00e9seaux d\u2019assainissement<br />1er Congr\u00e8s Eau & Intelligence Artificielle; Grenoble, France",
     45.1875602,
     5.7357819
