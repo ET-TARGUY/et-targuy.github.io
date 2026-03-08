@@ -5,6 +5,11 @@ var addressPoints = [
     4.8320114
   ],
   [
+    "Revising possibilistic knowledge bases using FH-conditioning<br />11\u00e8mes Journ\u00e9es Francophones sur les R\u00e9seaux Bay\u00e9siens et les Mod\u00e8les Graphiques Probabilistes (JFRB 2023); Nantes, France",
+    47.2186371,
+    -1.5541362
+  ],
+  [
     "Graphs as Tools for Wastewater Network Representation: Benefits and Insights<br />EGU General Assembly 2025; Vienna, Austria",
     48.2083537,
     16.3725042
@@ -28,5 +33,10 @@ var addressPoints = [
     "Wastewater Networks: Presentation of Multi-Source Data<br />College of Information and Communication Technology (CICT); Can Tho University, Vietnam",
     10.0321492,
     105.7683051
+  ],
+  [
+    "Fusion de donn\u00e9es g\u00e9ographiques par alignement de graphes : application aux r\u00e9seaux d\u2019assainissement<br />1er Congr\u00e8s Eau & Intelligence Artificielle; Grenoble, France",
+    45.1875602,
+    5.7357819
   ]
 ];
