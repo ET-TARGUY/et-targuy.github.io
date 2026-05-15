@@ -5,31 +5,59 @@ permalink: /talks/
 author_profile: true
 ---
 
-<p>I have presented my research at international conferences, workshops, and seminars across Europe, Africa, Asia, and South Africa. My presentations cover uncertainty reasoning, possibilistic logic, and spatial data fusion for wastewater networks.</p>
+<p>I have presented my research at international conferences, workshops, and seminars across Europe, Africa, Asia, and South Africa.</p>
 
-{% if site.talkmap_link == true %}
+<!-- Filters -->
+<div style="margin: 20px 0;">
+  <label><strong>Type:</strong></label>
+  <select id="filter-type" onchange="filterTalks()">
+    <option value="all">All</option>
+    <option value="Conference presentation">Conference Presentations</option>
+    <option value="Invited talk">Invited Talks</option>
+    <option value="Doctoral conference">Doctoral Conferences</option>
+    <option value="Seminar">Seminars</option>
+  </select>
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+  <label style="margin-left: 20px;"><strong>Year:</strong></label>
+  <select id="filter-year" onchange="filterTalks()">
+    <option value="all">All</option>
+    {% assign years = site.talks | map: "date" | uniq | sort | reverse %}
+    {% for year in years %}
+    <option value="{{ year | date: '%Y' }}">{{ year | date: '%Y' }}</option>
+    {% endfor %}
+  </select>
+</div>
 
-{% endif %}
-
-## Conference Presentations
-{% for post in site.talks reversed %}
-  {% if post.type == "Conference presentation" %}
+<!-- Talks list -->
+<div id="talks-container">
+{% assign talks_sorted = site.talks | sort: "date" | reverse %}
+{% for post in talks_sorted %}
+  <div class="talk-item" data-type="{{ post.type }}" data-year="{{ post.date | date: '%Y' }}">
     {% include archive-single-talk.html %}
-  {% endif %}
+  </div>
 {% endfor %}
+</div>
 
-## Doctoral Conferences
-{% for post in site.talks reversed %}
-  {% if post.type == "Doctoral conference" %}
-    {% include archive-single-talk.html %}
-  {% endif %}
-{% endfor %}
+<p id="no-results" style="display:none;">No talks found for this selection.</p>
 
-## Research Seminars
-{% for post in site.talks reversed %}
-  {% if post.type == "Research seminar" or post.type == "Seminar" %}
-    {% include archive-single-talk.html %}
-  {% endif %}
-{% endfor %}
+<script>
+function filterTalks() {
+  const type = document.getElementById("filter-type").value;
+  const year = document.getElementById("filter-year").value;
+  const items = document.querySelectorAll(".talk-item");
+  let visible = 0;
+
+  items.forEach(item => {
+    const matchType = type === "all" || item.dataset.type === type;
+    const matchYear = year === "all" || item.dataset.year === year;
+    if (matchType && matchYear) {
+      item.style.display = "block";
+      visible++;
+    } else {
+      item.style.display = "none";
+    }
+  });
+
+  document.getElementById("no-results").style.display = visible === 0 ? "block" : "none";
+}
+</script>
