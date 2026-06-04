@@ -1,0 +1,39 @@
+name: Sync HAL Publications
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # Every Monday at 06:00 UTC
+  workflow_dispatch:        # Allow manual trigger from GitHub UI
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write       # Needed to commit and push
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch publications from HAL
+        run: |
+          python fetch_hal_publications.py \
+            --hal-id ${{ secrets.HAL_AUTHOR_ID || 'omaret-targuy' }} \
+            --output-dir _publications
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _publications/hal_*.md
+          git diff --cached --quiet || git commit -m "chore: sync publications from HAL [$(date -u +%Y-%m-%d)]"
+          git push
